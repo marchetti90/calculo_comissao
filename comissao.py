@@ -30,7 +30,6 @@ lb_valor_comissao = Label(janela, text="",font=('Arial', 20))
 lb_valor_comissao.pack(side=TOP, fill=BOTH, expand=True)
 
 copyright_var = Label(janela, text="developed by Marchetti",font=('Arial', 7))
-# copyright_var.place(x=210,y=180)
 copyright_var.pack(side=RIGHT)
 
 janela.iconbitmap('C:\Suseranus\ico.ico')
