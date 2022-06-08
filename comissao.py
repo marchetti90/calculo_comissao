@@ -8,7 +8,7 @@ lb_valor_comissao.pack(anchor=CENTER)
 
 def _calcular_comissao():
     par_30k = 30000
-    par_50k = 50000
+    par_50k = 59999
     par_60k = 60000
     valor_digitado_f = float(ed_valor.get())
     if valor_digitado_f <= par_30k:
